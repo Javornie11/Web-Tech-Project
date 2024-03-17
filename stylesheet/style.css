@@ -32,6 +32,7 @@ p,h1,h2,li,td,label{
 #body{ 
 
     padding: 20;
+    background-color: #fffff6;
 }
 
 #body{
@@ -71,7 +72,7 @@ background-color: black;
     transition: 0.5s;
 }
 .SocialIcons a i:hover{
-    color: rgb(255, 255, 255);
+
     transition: 0.5s;
     background-color: white;
 }
@@ -83,7 +84,7 @@ background-color: black;
     color: white;
     font-size: 1.3em;
        opacity: 0.7;
-       
+     
 }
 .footerNav ul{
     display: flex;
@@ -100,8 +101,8 @@ background-color: black;
    list-style:none ;
    color: white;
    font-style: normal;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    font-size: small;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footerNav ul li a:hover{
@@ -124,13 +125,11 @@ color: white;
    
 }
 
-.designer
-{
-opacity:0.7;
-text-transform: uppercase;
-letter-spacing: 1px;
-font-weight: 400;
-margin: 0 5px;
-font-style: normal;
-
-}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+    font-style: normal;
+} 
