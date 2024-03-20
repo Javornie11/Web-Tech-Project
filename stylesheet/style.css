@@ -38,6 +38,18 @@ p,h1,h2,li,td,label{
 #body{
     margin: auto;
 }
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: #f5eb7a;
+    border-color: black;
+  }
+tr{
+    height:50px;
+
+}
 
 #footer{
 background-color: black;
