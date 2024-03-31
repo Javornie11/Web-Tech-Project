@@ -20,71 +20,73 @@
             
         </div>
     </div>
-        <img src="Images/JJS LOGO PSD 2 (3).png" height="260" width="260"/>
-    <div id="body"> 
-        <h1> Contact Us </h1>
-        <hr/>
-        <img src="Images/social_media.jpg" alt="Social Media" height="300" width="500"/>
-        <h2> Locations</h2>
-
-        <table style="width:70%">
-            <tr>
-                <th> Locations</th>
-                <th> Opening Hours</th>
-                <th> Email</th>
-            </tr>
-            <tr>
-                <td> Mandeville </td>
-                <td> 9am-6pm</td>
-                <td> honeymande@yahoo.com</td>
-
-            </tr>
-            <tr>
-                <td> Kingston </td>
-                <td> 9am-6pm</td>
-                <td> honeyking@yahoo.com</td>
-
-            </tr>
-            <tr>
-                <td> Morant Bay </td>
-                <td> 9am-6pm</td>
-                <td> honeymorant@yahoo.com</td>
-
-            </tr>
-
-        </table>
-        
-        <hr/>
-        <h2>General Inquries</h2>
-        <form action="confirmation.html"> 
-            <label> Name:  *</label> <br/>
-            <input required type="text" id="name" name="fullname"/> 
-            <br/> <br/>
-            <label> Email Address:  *</label> <br/>
-            <input required type="email" id="email" name="emailAddress"/>
-            <br/><br/>
-            <label> Are you employed?</label>
-            <input type="radio" value="Y" name="employed"/> yes
-            <input type="radio" value="N" name="employed"/> no
-            <input type="radio" value="C" name="employed"/> conditionally
-            <br/><br/>
-            <label> State your inquiry</label>
-            <br/>
-            <textarea required cols="50" rows="10" maxlength="150" id="inquiry" name="inquiry"></textarea>
-            <br/>
-            <input type="submit" />
-            <div class="footerNav">
-                    <ul>
-                        <li><a href="index.html"> Home </a></li>
-                        <li><a href="products.html"> Products </a></li>
-                        <li><a href="contact_us.html"> Contact Us </a></li>
-                        <li><a href="our_team.html"> Our Team </a></li>
-                    </ul>
-                
-                </div>
+    
 
                 <!--Contact Us Beginning-->
+<section class="location">
+    <div class="location-btns">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"> </i>
+                <span>
+                    <h5> 18 Caledonia Road, XYZ Building </h5>
+                    <p> Mandeville, Jamaica</p>
+                    <h5>  61 Constant Spring Rd, </h5>
+                    <p> Kingston 10, Jamaica</p>
+                </span>
                 
+            </div>
+
+            <div>
+                <i class="fa fa-phone"> </i>
+                <span>
+                    <h5> (876) 992-9075-9 </h5>
+                    <p> Monday to Thursday 8:30 am to 4:30pm </p>
+                    <p> Friday 8:30 am to 4:00pm </p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"> </i>
+                <span>
+                    <h5> infomandeville@jjsjoneyfarm.com </h5>
+                    <p> Email Us Your Queries </p>
+                    <h5> infokingston@jjsjoneyfarm.com </h5>
+                    <p> Email Us Your Queries </p>
+                </span>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+                <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form" action="confirmation.html">
+        <div class="contact-btns">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" >
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" >
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" ></textarea>
+        </div>
+        <button type="submit" id="submit-btn">Send Message</button>
+        <p id="status-message"></p>
+    </div>
+      </form>
+      
+    </div>
+  </section>
+
                 <!--Contact Us Ending-->
             
                 <div class="footerBottom"> 
@@ -116,7 +118,7 @@
         </div>
             </footer>  
     
-
+            <script src="javascripts/site.js"></script>
 
     </body>
 </html>

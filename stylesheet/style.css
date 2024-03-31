@@ -429,3 +429,118 @@ color: white;
     --gray: #ededed;
 }
 
+/*Contact Us Page*/
+section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #status-message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+ 
+  .location{
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+
+  }
+
+  .contact-col{
+    flex-basis: 40%;
+    margin-bottom: 30x;
+  }
+
+  .contact-col div{
+    display: flex;  
+  }
+
+.contact-col div .fa{
+font-size: 28px;
+color: orange;
+margin: 10px;
+margin-right: 30px;
+}
+
+.contact-col div p{
+    padding: 0;
+    color: #555;
+    font-family: "Rubik", sans-serif;
+}
+
+.contact-col div h5{
+font-size: 20px;
+margin-bottom: 5px;
+color: black;
+font-weight: 400;
+}
+.location-btns{
+    background: #fffff6;
+    color: white;
+    outline: 0;
+    border-radius: 25px;
+    padding: 0.7rem 1rem;
+    border: 0;
+    margin-top: 1rem;
+    font-size: 1rem;
+    box-shadow: 0 4px 24px -8px rgba(2, 48, 71, 0.2);
+    padding: 24px;
+    border-radius: 16px;
+    transition: all 400ms ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm-body p{
+    background: white;
+    padding: 0;
+    line-height: 35px;
+    font-family: "Rubik", sans-serif;
+    margin: 60px;
+}
+
+.confirm-body h1{
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+}
+
