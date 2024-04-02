@@ -206,11 +206,17 @@ footer {
 .job-list-container .job:hover{
     transform: scale(1.03);
 }
+
+.job-list-container .jobs a{
+    color: black;
+}
+
+
 .job-list-container .open-positions{
     position: absolute;
     top: 40px;
     bottom: 24px;
-    color: orangered;
+    color: #ff7900;
 }
 .job-list-container .job-title{
     font-size: 20px;
@@ -233,10 +239,10 @@ footer {
     text-align: center;
     margin-top: 20px;
     transition: all 400ms ease;
+    background: linear-gradient(#ff7900, #ffbf00);
 }
 .job-list-container .details-btn:hover{
-    background: #023047;
-    color: #fff;
+      color: white;
 }
 @media (max-width:640px){
     .job-list-container .jobs{
