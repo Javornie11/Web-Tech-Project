@@ -339,6 +339,7 @@ footer {
 }
 .btn-cart:hover{
     background: var(--carribean-green);
+    
 }
 .btn-buy{
     background: white;
