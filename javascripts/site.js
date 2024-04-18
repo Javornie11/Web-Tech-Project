@@ -88,3 +88,6 @@ document.addEventListener("DOMContentLoaded", function() {
       teamMembersContainer.appendChild(memberDiv);
   });
 });
+function addItem(){
+  alert('Item has been added to cart');
+}
