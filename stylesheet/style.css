@@ -7,6 +7,8 @@
     padding: 10px 0;
   }
   
+
+
   .nav-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -163,7 +165,7 @@ footer {
 }
 
 .footerNav ul li a:hover {
-    background-color: #ded35581;
+    background-color: #f2f2ab;
     color: white;
     padding: 5px;
 }
@@ -468,7 +470,7 @@ footer {
 
 /*Contact Us Page*/
 section {
-    padding: 50px 0;
+    padding: 40px 0;
   }
   
   section h2 {
@@ -476,10 +478,12 @@ section {
     margin-bottom: 30px;
     font-family: "Rubik", sans-serif;
     text-decoration: none;
+
   }
   
   .form-group {
     margin-bottom: 20px;
+    
   }
   
   label {
@@ -519,7 +523,7 @@ section {
   .location{
     width: 90%;
     margin: auto;
-    padding: 50px 0;
+    padding: 40px 0;
 
   }
 
@@ -540,12 +544,13 @@ margin-right: 30px;
 }
 
 .contact-col div p{
-    padding: 0;
+    padding: 5px 0;
     color: #555;
     font-family: "Rubik", sans-serif;
 }
 
 .contact-col div h5{
+
 font-size: 20px;
 margin-bottom: 5px;
 color: black;
@@ -844,73 +849,6 @@ h1 {
         margin-right: 20px;
     }
 }
-
-/*About Us Start*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Basic Styles */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f5f5f5;
-    color: #333;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  nav {
-    padding: 20px 0;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    text-align: center;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  .about-section {
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .about-content {
-    flex: 1;
-    padding-right: 20px;
-  }
-  
-  .about-image {
-    max-width: 100%;
-    height: auto;
-  }
-  
- 
   
 
  /*Our Team*/ 
@@ -985,3 +923,33 @@ main {
 }
 
 
+/*Login Page*/
+.navbar .btnLogin-popup{
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+    padding: 0 20px ;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .btnLogin-popup:hover{
+    background: #fffff6;
+    color: black;
+}
+
+.our-head p{
+    text-align: center;
+    
+}
