@@ -771,7 +771,7 @@ width: 40%;
 .ctn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #000;
+    background-color: #e68a00;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -1054,9 +1054,150 @@ main {
 }
 /*End of About Us*/
 
+/*Shipping Start*/
+.shipping-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
+.shipping-info h2 {
+    margin-top: 0;
+}
 
+.shipping-info ul {
+    list-style-type: none;
+    padding: 0;
+}
 
+.shipping-info ul li {
+    margin-bottom: 10px;
+}
+
+.shipping-info strong {
+    font-weight: bold;
+}
+
+/*Shipping End*/
+
+/*Newsletter Start*/
+.newsletter-signup {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.newsletter-signup h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.newsletter-signup p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.newsletter-signup form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-signup input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter-signup button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-signup button:hover {
+    background-color: #e68a00;
+}
+/*Newsletter End*/
+
+/*Sustain Start*/
+.sustainability-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+ 
+}
+
+.sustainability-section h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.sustainability-section p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.sustainability-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.sustainability-section ul li {
+    margin-bottom: 10px;
+}
+
+.sustainability-section ul li:last-child {
+    margin-bottom: 0;
+}
+
+/*Testimonial Start*/
+.testimonials-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.testimonials-section h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    border-left: 4px solid #ff9900;
+    padding-left: 15px;
+}
+
+.testimonial-content {
+    font-style: italic;
+    color: #666;
+}
+
+.testimonial-content p {
+    margin-bottom: 10px;
+}
+
+.testimonial-content cite {
+    font-weight: bold;
+}
 
 
 
