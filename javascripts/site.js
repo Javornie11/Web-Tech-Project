@@ -31,13 +31,10 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
-  
 /*Contact Us Page End*/ 
 
 
 /* Home Page Start */
-// script.js
 
 document.addEventListener('DOMContentLoaded', function () {
   const menuToggle = document.getElementById('menu-toggle');
@@ -57,13 +54,14 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+
 /* Our Team Start */
 document.addEventListener("DOMContentLoaded", function() {
   const teamMembers = [
-      { name: "John Doe", position: "CEO", image: "images/john-doe.jpg" },
-      { name: "Jane Smith", position: "CTO", image: "images/jane-smith.jpg" },
-      { name: "Mike Johnson", position: "Marketing Manager", image: "images/mike-johnson.jpg" },
-      { name: "Emily Brown", position: "Designer", image: "images/emily-brown.jpg" }
+      { name: "Javornie Elvie", position: "CEO", image: "Images/javvy.jpg" },
+      { name: "Shemar Dacres", position: "CFO", image: "Images/dacres.jpg" },
+      { name: "Salena Calbert", position: "Chief Marketing Officer", image: "Images/sallyyy6.png" },
+      { name: "Emily Brown", position: "HR Director", image: "Images/calbert.png" }
   ];
 
   const teamMembersContainer = document.querySelector(".team-members");
@@ -88,6 +86,3 @@ document.addEventListener("DOMContentLoaded", function() {
       teamMembersContainer.appendChild(memberDiv);
   });
 });
-function addItem(){
-  alert('Item has been added to cart');
-}
