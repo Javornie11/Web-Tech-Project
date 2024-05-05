@@ -96,8 +96,8 @@
           <label for="message">Message: *</label>
           <textarea required id="message" name="message" rows="5" ></textarea>
         </div>
-        <button type="submit" id="submit-btn">Send Message</button>
-        <button type="reset"> Reset Form</button>
+        <button type="submit" id="submit-btn" onclick="Submit()"> <a href="confirmation.html" class="active"></a> Send Message</button>
+        <button type="button" onclick="ClearForm()">Clear</button>
         <p id="status-message"></p>
     </div>
       </form>
@@ -124,7 +124,7 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="products.html">Products</a></li>
                         <li><a href="contact_us.html">Contact Us</a></li>
-                        <li><a href="#">Our Team</a></li>
+                        <li><a href="our_team.html">Our Team</a></li>
                     </ul>
                 </div>
                 <div class="footerBottom"> 
@@ -133,8 +133,9 @@
             </div>
         </footer>   
         
-            <script src="javascripts/jquery.min.js"></script> 
+     
             <script src="javascripts/site.js"></script>
+           
 
     </body>
 </html>

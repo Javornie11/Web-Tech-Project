@@ -1213,6 +1213,14 @@ main {
 }
 
 
+.confirm-body{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: larger;
+}
 
 
 
